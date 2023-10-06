@@ -1,0 +1,31 @@
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overflow: auto;
+  gap: 1em;
+  height: 100%;
+  width: 100%;
+
+  .headerSection {
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#1677FF;
+    color:#fff;
+
+     h1{
+      padding-bottom: 0.5em;
+     }
+
+     h3{
+       width: fit-content;
+       text-align: center;
+     }
+  } 
+
+  p{
+    padding: 0.5em;
+  }
+}

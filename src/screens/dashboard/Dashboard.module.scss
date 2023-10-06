@@ -1,0 +1,26 @@
+.dashBoardWrapper{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  gap:1em;
+
+  .dashBoardHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1em;
+    align-items: center;
+    justify-content: flex-start;
+    width:100%;
+    font-family: "Inter","serif";
+  }
+
+  .chartsWrapper{
+    display: flex;
+    flex:1;
+    overflow: auto;
+    width:100%;
+    height:100%;
+  }
+}
