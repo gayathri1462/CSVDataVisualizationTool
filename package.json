@@ -1,0 +1,43 @@
+{
+  "name": "csv-data-visualization-tool",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.jsx",
+  "author": "Gayathri Devi Nagalapuram",
+  "dependencies": {
+    "@reduxjs/toolkit": "1.9.6",
+    "antd": "5.9.2",
+    "chart.js": "4.4.0",
+    "chartjs-plugin-datalabels": "2.2.0",
+    "chartjs-plugin-doughnutlabel-v3": "1.2.0",
+    "csbbust": "1.0.1",
+    "loader-utils": "3.2.1",
+    "node-sass": "8.0.0",
+    "papaparse": "5.4.1",
+    "react": "18.2.0",
+    "react-chartjs-2": "5.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "8.0.5",
+    "react-scripts": "5.0.1",
+    "react-spreadsheet": "0.8.5",
+    "redux-persist": "6.0.0",
+    "redux-saga": "1.2.3"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
